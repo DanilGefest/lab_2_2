@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_margin="16dp"
+        android:hint="Ну напеши чиво-нибудь" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/blackTextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Черный текст" />
+
+        <Button
+            android:id="@+id/RedTextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Красный текст" />
+
+        <Button
+            android:id="@+id/Sise8Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Размер 8sp" />
+
+        <Button
+            android:id="@+id/Sise24Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Размер 24sp" />
+
+        <Button
+            android:id="@+id/BackgroundWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Белый фон" />
+
+        <Button
+            android:id="@+id/BackgroudYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Желтый фон" />
+    </GridLayout>
+
+</LinearLayout>
